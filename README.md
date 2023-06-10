@@ -37,8 +37,8 @@ class UserDTO(AbstractDto):
 user = UserDTO({"username":"admin","password":"admin"})
 
 # Access DTO data
-print(user.name)   # 'admin'
-print(user.password)  # 'admin'
+print(user.name.value)   # 'admin'
+print(user.password.value)  # 'admin'
 print(user.dict()) # {"username":"admin","password":"admin"}
 ```
 
